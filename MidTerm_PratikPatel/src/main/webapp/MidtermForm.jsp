@@ -37,7 +37,6 @@ Description - Here is the form, where the User will enter all information, such 
             <td><input type="text" name="fullName" pattern="[A-Za-z ]{1,50}" maxlength="50" required></td>
         </tr>
         
-        
         <!-- Required to enter a mobile number that only allow 10 digits only -->
         <tr>
             <td>Contact Number:</td>
