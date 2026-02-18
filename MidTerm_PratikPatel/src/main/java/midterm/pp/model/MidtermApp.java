@@ -2,6 +2,18 @@ package midterm.pp.model;
 
 public class MidtermApp {
 	
+	/**
+	 * 
+	 * @Pratik Patel
+	 * @Tuesday, February 17, 2026
+	 * 
+	 * 
+	 * Description - Here are the getter and setter for each of the variables
+	 * 				that are passed on to the doa file to enter into the database to help
+	 * 				stop SQL injection. This code supports parameterization of the input.
+	 * 
+	 * 
+	 */ 
 	
 	public String getFullName() {
 		return fullName;

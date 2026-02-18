@@ -13,7 +13,25 @@ import java.io.IOException;
 
 /**
  * Servlet implementation class midtermServlet
+ * 
+ * 
+ * 
  */
+
+
+/**
+
+@Pratik Patel
+@Tuesday, February 17, 2026
+ 
+ Description - The information from MidtermForm.jsp is received here and parameterized to be 
+ set as variables in the setter functions. The parameterization adds a another layer of security
+ to prevent SQL injection.
+
+
+*/
+
+
 @WebServlet("/MidtermServlet")
 public class MidtermServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
@@ -54,7 +72,7 @@ public class MidtermServlet extends HttpServlet {
 		Double sal = Double.valueOf(salary);
 	
 		
-		// the information from midtermForm.jsp is set into MidtermApp.java
+		// the information from MidtermForm.jsp is set into MidtermApp.java
 		MidtermApp mt = new MidtermApp();
 		mt.setFullName(fullName);
 		mt.setContact(contact);
@@ -73,6 +91,8 @@ public class MidtermServlet extends HttpServlet {
 //		}
 		
 		
+		
+		// After successfully finishing the form. we are redirect to a simple verification page.
 		response.sendRedirect("SuccessPage.jsp");
 		
 		
