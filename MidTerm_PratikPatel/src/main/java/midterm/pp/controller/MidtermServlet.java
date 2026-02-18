@@ -83,7 +83,7 @@ public class MidtermServlet extends HttpServlet {
 		
 		
 		
-// If we were implementing the dao file, we would use this section	
+// If we were implementing the dao file, we would use this section to create the queries for the database
 //		try {
 //			regDao.register(rt);
 //		} catch (Exception e) {
