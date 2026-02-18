@@ -60,6 +60,7 @@ Description - Here is the form, where the User will enter all information, such 
 		</tr>
 		
 		
+		
 		<!-- Required to enter a salary in decimal notation values up to 6 digits followed by 2 precision values like $999900.60 -->
 		<tr>
             <td>Salary:</td>
